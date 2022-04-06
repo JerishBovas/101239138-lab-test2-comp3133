@@ -5,7 +5,7 @@ import { MissiondetailsComponent } from './missiondetails/missiondetails.compone
 
 const routes: Routes = [
   { path: 'missionlist', component: MissionlistComponent},
-  { path: 'missiondetails', component: MissiondetailsComponent},
+  { path: 'missiondetails/:id', component: MissiondetailsComponent},
   { path: '', component: MissionlistComponent},
 ];
 
